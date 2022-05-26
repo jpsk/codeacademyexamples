@@ -1,0 +1,19 @@
+{
+  "name": "simple-vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "@popperjs/core": "^2.11.5",
+    "sass": "^1.52.1"
+  }
+}

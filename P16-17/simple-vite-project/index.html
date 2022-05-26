@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="myContainer">
+      <div class="myCard">
+        <img class="myCard__image" src="https://styles.redditmedia.com/t5_2r5i1/styles/communityIcon_x4lqmqzu1hi81.jpg" alt="cat image">
+        <h3 class="myCard__title myCard__title--italic">Katinukas</h3>
+        <button class="button button--success">Details</button>
+        <button class="button button--error">Delete</button>
+      </div>
+    </div>
+
+
+    <ul>
+      <li>Pirmas nestilizuotas</li>
+    </ul>
+    <nav>
+      <ul>
+        <li>Pirmas stilizuotas</li>
+      </ul>
+    </nav>
+
+
+    <!--  LIVE TOAST FROM BOOTSTRAP  -->
+    <div class="container">
+     <div class="row">
+
+    <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+     </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img width="24" src="https://pbs.twimg.com/profile_images/541920956449435651/iHq9_qcq_400x400.png" class="rounded me-2" alt="...">
+          <strong class="me-auto">I am a toast :}</strong>
+          <small>11 mins ago</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Linkėjimai iš atostogų ;)
+        </div>
+      </div>
+    </div>
+
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.person {
+  &__hand {/* Styles */}
+
+  &__leg {/* Styles */}
+
+  &--male {
+    /* Styles */
+
+    &__hand {
+      /* Styles */
+
+      &--left {/* Styles */}
+
+      &--right {/* Styles */}
+    }
+
+    &__leg {
+      /* Styles */
+
+      &--left {/* Styles */}
+
+      &--right {/* Styles */}
+    }
+  }
+
+  &--female {
+    /* Styles */
+
+    &__hand {
+      /* Styles */
+
+      &--left {/* Styles */}
+
+      &--right {/* Styles */}
+    }
+
+    &__leg {
+      /* Styles */
+
+      &--left {/* Styles */}
+
+      &--right {/* Styles */}
+    }
+  }
+}
